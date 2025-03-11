@@ -1,0 +1,17 @@
+@use '../abstracts/variables' as *;
+
+.button {
+  padding: 10px 20px;
+}
+
+.button--primary {
+  background-color: $colorPrimary;
+}
+
+.button--secondary {
+  background-color: $colorSecondary;
+}
+
+.button--large {
+  padding: 15px 30px;
+}
